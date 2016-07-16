@@ -16,8 +16,26 @@
                     <a class="navbar-brand" href="#">SMAN 1 WANADADI</a>
                 </div>
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <ul class="nav navbar-nav navbar-right">
+                    <ul class="nav navbar-nav navbar-left">
                         <li><a href="?halaman=home">Home <span class="sr-only">(current)</span></a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Input <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="?halaman=kriteria_masuk">Kriteria Masuk</a></li>
+                                <li><a href="?halaman=sub_kriteria">Sub Kriteria</a></li>
+                                <li><a href="?halaman=variabel_guna_masuk">Variable Guna Masuk</a></li>
+                                <li class="divider"></li>
+                                <li><a href="?halaman=kriteria_keluar">Kriteria Keluar</a></li>
+                                <li><a href="?halaman=variabel_guna_keluar">Variabel Guna Keluar</a></li>
+                                <li><a href="?halaman=sub_var_guna_keluar">Sub Variabel Guna Keluar</a></li>
+                                <li class="divider"></li>
+                                <li><a href="?halaman=komponen_sub_var_guna">Komponen Sub Variabel Guna</a></li>
+                                <li class="divider"></li>
+                                <li><a href="?halaman=tim_rkaas">Tim RKAAS</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
                         <?php if (isset($_SESSION['is_logged'])): ?>
                             <li><a href="logout.php">Logout</a></li>
                         <?php endif ?>
@@ -29,6 +47,14 @@
             <div class="col-md-9">
                 <?php
                 switch ($halaman) {
+                    case 'kriteria_masuk': $halaman = 'kriteria_masuk'; break;
+                    case 'sub_kriteria': $halaman = 'sub_kriteria'; break;
+                    case 'variabel_guna_masuk': $halaman = 'variabel_guna_masuk'; break;
+                    case 'kriteria_keluar': $halaman = 'kriteria_keluar'; break;
+                    case 'variabel_guna_keluar': $halaman = 'variabel_guna_keluar'; break;
+                    case 'sub_var_guna_keluar': $halaman = 'sub_var_guna_keluar'; break;
+                    case 'komponen_sub_var_guna': $halaman = 'komponen_sub_var_guna'; break;
+                    case 'tim_rkaas': $halaman = 'tim_rkaas'; break;
                     default: $halaman = "home"; break;
                 }
                 include "halaman/" . $halaman . ".php";

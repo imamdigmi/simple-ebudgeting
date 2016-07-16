@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8f90690c-e0a3-4a0d-b374-67a9396d7c48" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/halaman/home.php" afterPath="$PROJECT_DIR$/halaman/home.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logout.php" afterPath="$PROJECT_DIR$/logout.php" />
+    <list default="true" id="8f90690c-e0a3-4a0d-b374-67a9396d7c48" name="Default" comment="input &amp; d">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/halaman/komponen_sub_var_guna.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/halaman/kriteria_keluar.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/halaman/kriteria_masuk.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/halaman/sub_kriteria.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/halaman/sub_var_guna_keluar.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/halaman/tim_rkaas.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/halaman/variabel_guna_keluar.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/halaman/variabel_guna_masuk.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
     </list>
     <ignored path="e-budgeting.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,50 +32,7 @@
     <favorites_list name="e-budgeting" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="377">
-              <caret line="28" column="34" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="logout.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/logout.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="87">
-              <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="home.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/halaman/home.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="74" selection-start-line="0" selection-start-column="74" selection-end-line="0" selection-end-column="74" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/login.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="8" column="36" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="36" />
-              <folding>
-                <marker date="1468688130719" expanded="true" signature="109:213" ph="SELECT * FRO... tim_rkaas" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -76,11 +41,21 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/config.php" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/login.php" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/halaman/home.php" />
         <option value="$PROJECT_DIR$/logout.php" />
+        <option value="$PROJECT_DIR$/halaman/kriteria_masuk.php" />
+        <option value="$PROJECT_DIR$/halaman/variable_guna_masuk.php" />
+        <option value="$PROJECT_DIR$/halaman/variabel_guna_masuk.php" />
+        <option value="$PROJECT_DIR$/halaman/variabel_guna_keluar.php" />
+        <option value="$PROJECT_DIR$/halaman/kriteria_keluar.php" />
+        <option value="$PROJECT_DIR$/halaman/sub_kriteria.php" />
+        <option value="$PROJECT_DIR$/halaman/sub_var_guna_keluar.php" />
+        <option value="$PROJECT_DIR$/halaman/komponen_sub_var_guna.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/halaman/tim_rkaas.php" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -106,7 +81,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
@@ -140,20 +115,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="e-budgeting" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="e-budgeting" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="e-budgeting" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="halaman" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -215,18 +176,18 @@
       <updated>1468656445890</updated>
       <workItem from="1468656447030" duration="920000" />
       <workItem from="1468686353216" duration="1926000" />
-      <workItem from="1468688292678" duration="315000" />
+      <workItem from="1468688292678" duration="6496000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3161000" />
+    <option name="totallyTimeSpent" value="9342000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1920" height="1056" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19690502" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19690502" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -286,36 +247,202 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/halaman/home.php">
+    <entry file="file://$PROJECT_DIR$/logout.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="74" selection-start-line="0" selection-start-column="74" selection-end-line="0" selection-end-column="74" />
+        <state relative-caret-position="87">
+          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/login.php">
+    <entry file="file://$PROJECT_DIR$/../e-commerce/karyawan/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="8" column="36" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="36" />
+        <state relative-caret-position="377">
+          <caret line="46" column="29" selection-start-line="46" selection-start-column="29" selection-end-line="58" selection-end-column="29" />
           <folding>
-            <marker date="1468688130719" expanded="true" signature="109:213" ph="SELECT * FRO... tim_rkaas" />
+            <marker date="1466573806000" expanded="true" signature="120:218" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/halaman/home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="76" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../e-commerce/halaman/profile.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="29">
+          <caret line="16" column="65" selection-start-line="16" selection-start-column="65" selection-end-line="16" selection-end-column="65" />
+          <folding>
+            <marker date="1466570782000" expanded="true" signature="238:281" ph="SELECT * FRO... pelanggan" />
+            <marker date="1466570782000" expanded="true" signature="1614:1655" ph="SELECT * FRO... order" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../e-commerce/karyawan/halaman/barang.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="45" column="100" selection-start-line="45" selection-start-column="100" selection-end-line="56" selection-end-column="22" />
+          <folding>
+            <marker date="1466572316000" expanded="true" signature="272:524" ph="INSERT INTO `barang`... " />
+            <marker date="1466572316000" expanded="true" signature="594:711" ph="..." />
+            <marker date="1466572316000" expanded="true" signature="771:885" ph="..." />
+            <marker date="1466572316000" expanded="true" signature="990:1027" ph="DELETE FROM " />
+            <marker date="1466572316000" expanded="true" signature="1066:1171" ph="..." />
+            <marker date="1466572316000" expanded="true" signature="1767:1787" ph="SELECT * FRO... merk" />
+            <marker date="1466572316000" expanded="true" signature="4378:4477" ph="SELECT `bara... barang" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/halaman/variabel_guna_masuk.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="51" column="27" selection-start-line="51" selection-start-column="27" selection-end-line="51" selection-end-column="27" />
+          <folding>
+            <marker date="1468691154574" expanded="true" signature="167:283" ph="INSERT INTO sub_kriteria... " />
+            <marker date="1468691154574" expanded="true" signature="608:664" ph="DELETE FROM " />
+            <marker date="1468691154574" expanded="true" signature="1409:1435" ph="SELECT * FRO... sub_kriteria" />
+            <marker date="1468691154574" expanded="true" signature="3140:3317" ph="SELECT kd_va... variabel_guna_masuk" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/halaman/kriteria_keluar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="11" column="73" selection-start-line="11" selection-start-column="73" selection-end-line="11" selection-end-column="73" />
+          <folding>
+            <marker date="1468692029562" expanded="true" signature="167:255" ph="INSERT INTO kriteria_masuk... " />
+            <marker date="1468692029562" expanded="true" signature="572:625" ph="DELETE FROM " />
+            <marker date="1468692029562" expanded="true" signature="2323:2352" ph="SELECT * FRO... kriteria_keluar" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/halaman/variabel_guna_keluar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="55" column="46" selection-start-line="0" selection-start-column="0" selection-end-line="86" selection-end-column="6" />
+          <folding>
+            <marker date="1468691995242" expanded="true" signature="167:288" ph="INSERT INTO sub_kriteria... " />
+            <marker date="1468691995242" expanded="true" signature="615:673" ph="DELETE FROM " />
+            <marker date="1468691995242" expanded="true" signature="1421:1450" ph="SELECT * FRO... kriteria_keluar" />
+            <marker date="1468691995242" expanded="true" signature="3159:3351" ph="SELECT kd_va... variabel_guna_keluar" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/halaman/sub_var_guna_keluar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="59" column="46" selection-start-line="59" selection-start-column="46" selection-end-line="59" selection-end-column="46" />
+          <folding>
+            <marker date="1468692912778" expanded="true" signature="167:318" ph="INSERT INTO sub_var_guna_keluar... " />
+            <marker date="1468692912778" expanded="true" signature="643:704" ph="DELETE FROM " />
+            <marker date="1468692912778" expanded="true" signature="1458:1492" ph="SELECT * FRO... variabel_guna_keluar" />
+            <marker date="1468692912778" expanded="true" signature="2201:2234" ph="SELECT * FRO... variabel_guna_masuk" />
+            <marker date="1468692912778" expanded="true" signature="4019:4328" ph="SELECT kd_su... sub_var_guna_keluar" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/halaman/sub_kriteria.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="11" column="59" selection-start-line="0" selection-start-column="0" selection-end-line="86" selection-end-column="6" />
+          <folding>
+            <marker date="1468692055778" expanded="true" signature="167:270" ph="INSERT INTO kriteria_masuk... " />
+            <marker date="1468692055778" expanded="true" signature="581:628" ph="DELETE FROM " />
+            <marker date="1468692055778" expanded="true" signature="1354:1382" ph="SELECT * FRO... kriteria_masuk" />
+            <marker date="1468692055778" expanded="true" signature="3073:3235" ph="SELECT nama_... sub_kriteria" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/halaman/komponen_sub_var_guna.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="29">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding>
+            <marker date="1468693520094" expanded="true" signature="167:247" ph="INSERT INTO komponen_sub_var... " />
+            <marker date="1468693520094" expanded="true" signature="167:295" ph="INSERT INTO sub_kriteria... " />
+            <marker date="1468693520094" expanded="true" signature="624:685" ph="DELETE FROM " />
+            <marker date="1468693520094" expanded="true" signature="1453:1486" ph="SELECT * FRO... sub_var_guna_keluar" />
+            <marker date="1468693520094" expanded="true" signature="3206:3419" ph="SELECT kd_ko... komponen_sub_var_guna" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/halaman/kriteria_masuk.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="7" column="37" selection-start-line="0" selection-start-column="0" selection-end-line="73" selection-end-column="6" />
+          <folding>
+            <marker date="1468690491530" expanded="true" signature="167:253" ph="INSERT INTO kriteria_masuk... " />
+            <marker date="1468690491530" expanded="true" signature="568:613" ph="DELETE FROM " />
+            <marker date="1468690491530" expanded="true" signature="2332:2360" ph="SELECT * FRO... kriteria_masuk" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="28" column="34" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
+        <state relative-caret-position="294">
+          <caret line="47" column="21" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/logout.php">
+    <entry file="file://$PROJECT_DIR$/halaman/tim_rkaas.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+        <state relative-caret-position="116">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding>
+            <marker date="1468694670966" expanded="true" signature="167:239" ph="INSERT INTO tim_rkaas... " />
+            <marker date="1468694670966" expanded="true" signature="167:264" ph="INSERT INTO tim_rkaas... " />
+            <marker date="1468694670966" expanded="true" signature="167:280" ph="INSERT INTO tim_rkaas... " />
+            <marker date="1468694670966" expanded="true" signature="585:626" ph="DELETE FROM " />
+            <marker date="1468694670966" expanded="true" signature="1072:1243" ph="..." />
+            <marker date="1468694670966" expanded="true" signature="1288:1447" ph="..." />
+            <marker date="1468694670966" expanded="true" signature="1492:1667" ph="..." />
+            <marker date="1468694670966" expanded="true" signature="1712:2623" ph="..." />
+            <marker date="1468694670966" expanded="true" signature="1832:1876" ph="SELECT * FRO... tim_rkaas" />
+            <marker date="1468694670966" expanded="true" signature="2900:3755" ph="..." />
+            <marker date="1468694670966" expanded="true" signature="2939:3755" ph="..." />
+            <marker date="1468694670966" expanded="true" signature="3057:3755" ph="..." />
+            <marker date="1468694670966" expanded="true" signature="3111:3755" ph="..." />
+            <marker date="1468694670966" expanded="true" signature="3139:3397" ph="..." />
+            <marker date="1468694670966" expanded="true" signature="3164:3368" ph="..." />
+            <marker date="1468694670966" expanded="true" signature="3425:3755" ph="..." />
+            <marker date="1468694670966" expanded="true" signature="3482:3505" ph="SELECT * FRO... tim_rkaas" />
+            <marker date="1468694670966" expanded="true" signature="3657:3755" ph="..." />
+            <marker date="1468694670966" expanded="true" signature="3953:4108" ph="..." />
+            <marker date="1468694670966" expanded="true" signature="4013:4108" ph="..." />
+            <marker date="1468694670966" expanded="true" signature="4637:4783" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+          <folding>
+            <marker date="1468688130719" expanded="true" signature="109:213" ph="SELECT * FRO... tim_rkaas" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
           <folding />
         </state>
       </provider>
