@@ -2,10 +2,25 @@
 
 <?php
 if (isset($_POST['form']) AND $_POST['form'] == 'true') {
-    if ($koneksi->query("INSERT INTO sub_var_guna_keluar VALUES(NULL, $_POST[kd_var_guna_keluar], $_POST[kd_var_guna_masuk], '$_POST[nama_sub_var_guna_keluar]', $_POST[jumlah])")) {
-        echo "<script>alert('Berhasil diinput!'); window.location='?halaman=sub_var_guna_keluar';</script>";
+    $status = false;
+    $query_1 = $koneksi->query("SELECT jumlah FROM variabel_guna_keluar WHERE kd_var_guna_keluar=$_POST[kd_var_guna_keluar]");
+    $query_2 = $koneksi->query("SELECT SUM(jumlah) AS jml FROM sub_var_guna_keluar WHERE kd_var_guna_keluar=$_POST[kd_var_guna_keluar]");
+    $row_1 = $query_1->fetch_assoc();
+    $row_2 = $query_2->fetch_assoc();
+    $jum = $_POST['jumlah'] + $row_2['jml'];
+    if ($row_2['jml'] == '') {
+        $status = ($_POST['jumlah'] > $row_1['jumlah']) ? false : true;
     } else {
-        echo "<script>alert('Gagal diinput!'); window.location='?halaman=sub_var_guna_keluar';</script>";
+        $status = ($jum > $row_1['jumlah']) ? false : true;
+    }
+    if ($status) {
+        if ($koneksi->query("INSERT INTO sub_var_guna_keluar VALUES(NULL, $_POST[kd_var_guna_keluar], '$_POST[nama_sub_var_guna_keluar]', $_POST[jumlah])")) {
+            echo "<script>alert('Berhasil diinput!'); window.location='?halaman=sub_var_guna_keluar';</script>";
+        } else {
+            echo "<script>alert('Gagal diinput!'); window.location='?halaman=sub_var_guna_keluar';</script>";
+        }
+    } else {
+        echo "<script>alert('Jumlah terlalu besar!'); window.location='?halaman=sub_var_guna_keluar';</script>";
     }
 }
 if (isset($_GET['action']) AND $_GET['action'] == 'delete') {
@@ -31,23 +46,12 @@ if (isset($_GET['action']) AND $_GET['action'] == 'delete') {
                         </select>
                     </div>
                     <div class="form-group">
-                        <label for="kd_var_guna_masuk">Var Guna Masuk</label>
-                        <select name="kd_var_guna_masuk" class="form-control">
-                            <option value="" selected="on">---</option>
-                            <?php if ($query = $koneksi->query("SELECT * FROM variabel_guna_masuk")): ?>
-                                <?php while ($data = $query->fetch_array()): ?>
-                                    <option value="<?=$data['kd_var_guna_masuk']?>"><?=$data['nama_var_guna_masuk']?></option>
-                                <?php endwhile ?>
-                            <?php endif ?>
-                        </select>
-                    </div>
-                    <div class="form-group">
                         <label for="nama_sub_var_guna_keluar">Nama Sub Var Guna Keluar</label>
                         <input type="text" name="nama_sub_var_guna_keluar" class="form-control">
                     </div>
                     <div class="form-group">
                         <label for="jumlah">Jumlah</label>
-                        <input type="number" name="jumlah" class="form-control">
+                        <input type="number" name="jumlah" class="form-control" value="0">
                     </div>
                     <input type="hidden" name="form" value="true">
                     <button type="submit" class="btn btn-info btn-block">Simpan</button>
@@ -64,22 +68,20 @@ if (isset($_GET['action']) AND $_GET['action'] == 'delete') {
                     <tr>
                         <th>No</th>
                         <th>Var Guna Keluar</th>
-                        <th>Var Guna Masuk</th>
                         <th>Nama Sub Var Guna Keluar</th>
                         <th>Jumlah</th>
                         <th class="hidden-print"></th>
                     </tr>
                     </thead>
                     <tbody>
-                    <?php if($query = $koneksi->query("SELECT kd_sub_var_guna_keluar, nama_var_guna_keluar, nama_var_guna_masuk, nama_sub_var_guna_keluar, sk.jumlah AS jumlah_sk FROM sub_var_guna_keluar sk LEFT JOIN variabel_guna_keluar vk ON sk.kd_var_guna_keluar=vk.kd_var_guna_keluar LEFT JOIN variabel_guna_masuk vm ON sk.kd_var_guna_masuk=vm.kd_var_guna_masuk")): ?>
+                    <?php if($query = $koneksi->query("SELECT kd_sub_var_guna_keluar, nama_var_guna_keluar, nama_sub_var_guna_keluar, sk.jumlah AS jumlah_sk FROM sub_var_guna_keluar sk LEFT JOIN variabel_guna_keluar vk ON sk.kd_var_guna_keluar=vk.kd_var_guna_keluar")): ?>
                         <?php $no = 1; ?>
                         <?php while($data = $query->fetch_array()): ?>
                             <tr>
                                 <td><?=$no++?></td>
                                 <td><?=$data['nama_var_guna_keluar']?></td>
-                                <td><?=$data['nama_var_guna_masuk']?></td>
                                 <td><?=$data['nama_sub_var_guna_keluar']?></td>
-                                <td><?=$data['jumlah_sk']?></td>
+                                <td>Rp.<?=number_format($data['jumlah_sk'])?>,-</td>
                                 <td class="hidden-print">
                                     <div class="btn-group">
                                         <a href="?halaman=sub_var_guna_keluar&action=update&id=<?=$data['kd_sub_var_guna_keluar']?>" class="btn btn-warning btn-xs">Edit</a>

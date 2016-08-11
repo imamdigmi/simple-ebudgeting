@@ -30,8 +30,18 @@
                                 <li><a href="?halaman=sub_var_guna_keluar">Sub Variabel Guna Keluar</a></li>
                                 <li class="divider"></li>
                                 <li><a href="?halaman=komponen_sub_var_guna">Komponen Sub Variabel Guna</a></li>
+                                <li><a href="?halaman=sub_komponen_sub_var_guna">Sub Komponen Sub Variabel Guna</a></li>
                                 <li class="divider"></li>
                                 <li><a href="?halaman=tim_rkaas">Tim RKAAS</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="?halaman=pengambilan_dana">Pengambilan Dana</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Rekap <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="?halaman=rekap_a">A. Rekapitulasi Penerimaan Dana Anggaran</a></li>
+                                <li><a href="?halaman=rekap_b">B. Rincian Penghitungan Pembelanjaan Tiap Kegiatan</a></li>
+                                <li><a href="?halaman=rekap_c">C. Rincian Berdasarkan Sumber Dana</a></li>
                             </ul>
                         </li>
                     </ul>
@@ -44,7 +54,7 @@
             </div><!-- /.container-fluid -->
         </nav>
         <div class="row">
-            <div class="col-md-9">
+            <div class="col-md-12">
                 <?php
                 switch ($halaman) {
                     case 'kriteria_masuk': $halaman = 'kriteria_masuk'; break;
@@ -54,7 +64,12 @@
                     case 'variabel_guna_keluar': $halaman = 'variabel_guna_keluar'; break;
                     case 'sub_var_guna_keluar': $halaman = 'sub_var_guna_keluar'; break;
                     case 'komponen_sub_var_guna': $halaman = 'komponen_sub_var_guna'; break;
+                    case 'sub_komponen_sub_var_guna': $halaman = 'sub_komponen_sub_var_guna'; break;
                     case 'tim_rkaas': $halaman = 'tim_rkaas'; break;
+                    case 'pengambilan_dana': $halaman = 'pengambilan_dana'; break;
+                    case 'rekap_a': $halaman = 'rekap_a'; break;
+                    case 'rekap_b': $halaman = 'rekap_b'; break;
+                    case 'rekap_c': $halaman = 'rekap_c'; break;
                     default: $halaman = "home"; break;
                 }
                 include "halaman/" . $halaman . ".php";

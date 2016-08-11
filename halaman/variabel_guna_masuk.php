@@ -2,10 +2,24 @@
 
 <?php
 if (isset($_POST['form']) AND $_POST['form'] == 'true') {
-    if ($koneksi->query("INSERT INTO variabel_guna_masuk VALUES(NULL, $_POST[kd_sub_kriteria], '$_POST[nama_var_guna_masuk]', $_POST[jumlah])")) {
-        echo "<script>alert('Berhasil diinput!'); window.location='?halaman=variabel_guna_masuk';</script>";
+    $status = false;
+    $query_1 = $koneksi->query("SELECT jumlah FROM sub_kriteria WHERE kd_sub_kriteria=$_POST[kd_sub_kriteria]");
+    $query_2 = $koneksi->query("SELECT SUM(jumlah) AS jml FROM variabel_guna_masuk WHERE kd_sub_kriteria=$_POST[kd_sub_kriteria]");
+    $row_1 = $query_1->fetch_assoc();
+    $row_2 = $query_2->fetch_assoc();
+    if (is_null($row_2['jml'])) {
+        $status = ($_POST['jumlah'] > $row_1['jumlah']) ? false : true;
     } else {
-        echo "<script>alert('Gagal diinput!'); window.location='?halaman=variabel_guna_masuk';</script>";
+        $status = ($row_1['jumlah'] == $row_2['jml']) ? false : true;
+    }
+    if ($status) {
+        if ($koneksi->query("INSERT INTO variabel_guna_masuk VALUES(NULL, $_POST[kd_sub_kriteria], '$_POST[nama_var_guna_masuk]', $_POST[jumlah])")) {
+            echo "<script>alert('Berhasil diinput!'); window.location='?halaman=variabel_guna_masuk';</script>";
+        } else {
+            echo "<script>alert('Gagal diinput!'); window.location='?halaman=variabel_guna_masuk';</script>";
+        }
+    } else {
+        echo "<script>alert('Jumlah terlalu besar!'); window.location='?halaman=variabel_guna_masuk';</script>";
     }
 }
 if (isset($_GET['action']) AND $_GET['action'] == 'delete') {
@@ -66,7 +80,7 @@ if (isset($_GET['action']) AND $_GET['action'] == 'delete') {
                                 <td><?=$no++?></td>
                                 <td><?=$data['nama_sub_kriteria']?></td>
                                 <td><?=$data['nama_var_guna_masuk']?></td>
-                                <td><?=$data['jumlah_v']?></td>
+                                <td>Rp.<?=number_format($data['jumlah_v'])?>,-</td>
                                 <td class="hidden-print">
                                     <div class="btn-group">
                                         <a href="?halaman=variabel_guna_masuk&action=update&id=<?=$data['kd_var_guna_masuk']?>" class="btn btn-warning btn-xs">Edit</a>

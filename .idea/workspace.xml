@@ -1,17 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8f90690c-e0a3-4a0d-b374-67a9396d7c48" name="Default" comment="input &amp; d">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/halaman/komponen_sub_var_guna.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/halaman/kriteria_keluar.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/halaman/kriteria_masuk.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/halaman/sub_kriteria.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/halaman/sub_var_guna_keluar.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/halaman/tim_rkaas.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/halaman/variabel_guna_keluar.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/halaman/variabel_guna_masuk.php" />
+    <list default="true" id="8f90690c-e0a3-4a0d-b374-67a9396d7c48" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/QUERY.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/halaman/pengambilan_dana.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/halaman/rekap_a.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/halaman/rekap_b.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/halaman/rekap_c.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/halaman/sub_komponen_sub_var_guna.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.eot" afterPath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.eot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.ttf" afterPath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.woff" afterPath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.woff" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.woff2" afterPath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.woff2" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/e-budgeting.iml" afterPath="$PROJECT_DIR$/.idea/e-budgeting.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.php" afterPath="$PROJECT_DIR$/config.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/bootstrap-theme.css" afterPath="$PROJECT_DIR$/css/bootstrap-theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/bootstrap-theme.css.map" afterPath="$PROJECT_DIR$/css/bootstrap-theme.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/bootstrap-theme.min.css" afterPath="$PROJECT_DIR$/css/bootstrap-theme.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/bootstrap.css" afterPath="$PROJECT_DIR$/css/bootstrap.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/bootstrap.css.map" afterPath="$PROJECT_DIR$/css/bootstrap.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/css/bootstrap.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/halaman/home.php" afterPath="$PROJECT_DIR$/halaman/home.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/halaman/komponen_sub_var_guna.php" afterPath="$PROJECT_DIR$/halaman/komponen_sub_var_guna.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/halaman/kriteria_keluar.php" afterPath="$PROJECT_DIR$/halaman/kriteria_keluar.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/halaman/kriteria_masuk.php" afterPath="$PROJECT_DIR$/halaman/kriteria_masuk.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/halaman/sub_kriteria.php" afterPath="$PROJECT_DIR$/halaman/sub_kriteria.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/halaman/sub_var_guna_keluar.php" afterPath="$PROJECT_DIR$/halaman/sub_var_guna_keluar.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/halaman/tim_rkaas.php" afterPath="$PROJECT_DIR$/halaman/tim_rkaas.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/halaman/variabel_guna_keluar.php" afterPath="$PROJECT_DIR$/halaman/variabel_guna_keluar.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/halaman/variabel_guna_masuk.php" afterPath="$PROJECT_DIR$/halaman/variabel_guna_masuk.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/bootstrap.js" afterPath="$PROJECT_DIR$/js/bootstrap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/js/bootstrap.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/jquery.min.js" afterPath="$PROJECT_DIR$/js/jquery.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/npm.js" afterPath="$PROJECT_DIR$/js/npm.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/login.php" afterPath="$PROJECT_DIR$/login.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logout.php" afterPath="$PROJECT_DIR$/logout.php" />
     </list>
     <ignored path="e-budgeting.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -23,7 +53,6 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
@@ -40,22 +69,30 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/config.php" />
         <option value="$PROJECT_DIR$/login.php" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/halaman/home.php" />
         <option value="$PROJECT_DIR$/logout.php" />
-        <option value="$PROJECT_DIR$/halaman/kriteria_masuk.php" />
         <option value="$PROJECT_DIR$/halaman/variable_guna_masuk.php" />
-        <option value="$PROJECT_DIR$/halaman/variabel_guna_masuk.php" />
-        <option value="$PROJECT_DIR$/halaman/variabel_guna_keluar.php" />
-        <option value="$PROJECT_DIR$/halaman/kriteria_keluar.php" />
-        <option value="$PROJECT_DIR$/halaman/sub_kriteria.php" />
-        <option value="$PROJECT_DIR$/halaman/sub_var_guna_keluar.php" />
-        <option value="$PROJECT_DIR$/halaman/komponen_sub_var_guna.php" />
-        <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/halaman/tim_rkaas.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/halaman/tim_rkaas.php" />
+        <option value="$PROJECT_DIR$/halaman/realisasi.php" />
+        <option value="$PROJECT_DIR$/halaman/sdsd.php" />
+        <option value="$PROJECT_DIR$/halaman/kriteria_keluar.php" />
+        <option value="$PROJECT_DIR$/halaman/kriteria_masuk.php" />
+        <option value="$PROJECT_DIR$/halaman/sub_kriteria.php" />
+        <option value="$PROJECT_DIR$/halaman/variabel_guna_masuk.php" />
+        <option value="$PROJECT_DIR$/config.php" />
+        <option value="$PROJECT_DIR$/halaman/rekap_a.php" />
+        <option value="$PROJECT_DIR$/halaman/rekap_b.php" />
+        <option value="$PROJECT_DIR$/halaman/komponen_sub_var_guna.php" />
+        <option value="$PROJECT_DIR$/halaman/sub_komponen_sub_var_guna.php" />
+        <option value="$PROJECT_DIR$/halaman/sub_var_guna_keluar.php" />
+        <option value="$PROJECT_DIR$/halaman/variabel_guna_keluar.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/QUERY.sql" />
+        <option value="$PROJECT_DIR$/halaman/pengambilan_dana.php" />
+        <option value="$PROJECT_DIR$/halaman/rekap_c.php" />
       </list>
     </option>
   </component>
@@ -124,13 +161,18 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../kesharlindung" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="/usr/bin/node" />
     <property name="ignore_missing_gitignore" value="true" />
+    <property name="SearchEverywhereHistoryKey" value="sub_kompo&#9;FILE&#9;file:///var/www/html/e-budgeting/halaman/sub_komponen_sub_var_guna.php&#10;komponen_sub_var_guna&#9;FILE&#9;file:///var/www/html/e-budgeting/halaman/komponen_sub_var_guna.php" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
       <method />
     </configuration>
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -160,6 +202,19 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -176,25 +231,55 @@
       <updated>1468656445890</updated>
       <workItem from="1468656447030" duration="920000" />
       <workItem from="1468686353216" duration="1926000" />
-      <workItem from="1468688292678" duration="6496000" />
+      <workItem from="1468688292678" duration="6509000" />
+      <workItem from="1468696486531" duration="17000" />
+      <workItem from="1468738693115" duration="3354000" />
+      <workItem from="1468742822114" duration="4501000" />
+      <workItem from="1468785870474" duration="74000" />
+      <workItem from="1468811727924" duration="22000" />
+      <workItem from="1468851228583" duration="3596000" />
+      <workItem from="1468868788182" duration="2854000" />
+      <workItem from="1468873354843" duration="4257000" />
+      <workItem from="1468901405275" duration="41000" />
+      <workItem from="1468911980643" duration="2465000" />
+      <workItem from="1468943830884" duration="1804000" />
+      <workItem from="1468987492246" duration="6653000" />
+      <workItem from="1469948291268" duration="14000" />
+      <workItem from="1469948472294" duration="15793000" />
+      <workItem from="1470300181456" duration="6410000" />
+      <workItem from="1470316046282" duration="12000" />
+      <workItem from="1470639253832" duration="3388000" />
+      <workItem from="1470660997871" duration="2418000" />
+      <workItem from="1470664162300" duration="1084000" />
+      <workItem from="1470682672610" duration="29000" />
+      <workItem from="1470682710728" duration="12000" />
+      <workItem from="1470684538658" duration="23000" />
     </task>
+    <task id="LOCAL-00001" summary="input &amp; delete">
+      <created>1468694797583</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1468694797583</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9342000" />
+    <option name="totallyTimeSpent" value="68176000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1920" height="1056" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19690502" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16168623" sideWeight="0.49582464" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19479166" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15528281" sideWeight="0.50417536" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -217,41 +302,148 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="input &amp; delete" />
+    <option name="LAST_COMMIT_MESSAGE" value="input &amp; delete" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/e-budgeting.sql" />
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider editor-type-id="MarkdownFxPreviewEditor">
-        <state />
+    <entry file="file://$PROJECT_DIR$/halaman/rekap_c.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="290">
-            <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-            <folding />
-          </first_editor>
-          <second_editor />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/halaman/rekap_c.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/halaman/rekap_c.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/halaman/pengambilan_dana.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1595">
+          <caret line="55" column="35" selection-start-line="55" selection-start-column="35" selection-end-line="55" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/halaman/rekap_c.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/halaman/pengambilan_dana.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1595">
+          <caret line="55" column="35" selection-start-line="55" selection-start-column="35" selection-end-line="55" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/halaman/rekap_c.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/halaman/rekap_c.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/halaman/rekap_b.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2204">
+          <caret line="76" column="27" selection-start-line="76" selection-start-column="27" selection-end-line="76" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/halaman/rekap_c.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/halaman/rekap_b.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/halaman/realisasi.php" />
+    <entry file="file://$PROJECT_DIR$/halaman/sub_komponen_sub_var_guna.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/halaman/realisasi.php" />
+    <entry file="file://$PROJECT_DIR$/halaman/komponen_sub_var_guna.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/halaman/realisasi.php" />
+    <entry file="file://$PROJECT_DIR$/halaman/komponen_sub_var_guna.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/halaman/realisasi.php" />
+    <entry file="file://$PROJECT_DIR$/halaman/realisasi.php" />
+    <entry file="file://$PROJECT_DIR$/halaman/realisasi.php" />
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="754">
+          <caret line="26" column="57" selection-start-line="26" selection-start-column="57" selection-end-line="26" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/halaman/sub_komponen_sub_var_guna.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/e-budgeting.sql" />
+    <entry file="file://$PROJECT_DIR$/README.md" />
     <entry file="file://$PROJECT_DIR$/logout.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="87">
           <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -259,17 +451,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="377">
           <caret line="46" column="29" selection-start-line="46" selection-start-column="29" selection-end-line="58" selection-end-column="29" />
-          <folding>
-            <marker date="1466573806000" expanded="true" signature="120:218" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/halaman/home.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="76" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -277,10 +458,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="29">
           <caret line="16" column="65" selection-start-line="16" selection-start-column="65" selection-end-line="16" selection-end-column="65" />
-          <folding>
-            <marker date="1466570782000" expanded="true" signature="238:281" ph="SELECT * FRO... pelanggan" />
-            <marker date="1466570782000" expanded="true" signature="1614:1655" ph="SELECT * FRO... order" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -288,144 +465,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="263">
           <caret line="45" column="100" selection-start-line="45" selection-start-column="100" selection-end-line="56" selection-end-column="22" />
-          <folding>
-            <marker date="1466572316000" expanded="true" signature="272:524" ph="INSERT INTO `barang`... " />
-            <marker date="1466572316000" expanded="true" signature="594:711" ph="..." />
-            <marker date="1466572316000" expanded="true" signature="771:885" ph="..." />
-            <marker date="1466572316000" expanded="true" signature="990:1027" ph="DELETE FROM " />
-            <marker date="1466572316000" expanded="true" signature="1066:1171" ph="..." />
-            <marker date="1466572316000" expanded="true" signature="1767:1787" ph="SELECT * FRO... merk" />
-            <marker date="1466572316000" expanded="true" signature="4378:4477" ph="SELECT `bara... barang" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/halaman/variabel_guna_masuk.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="51" column="27" selection-start-line="51" selection-start-column="27" selection-end-line="51" selection-end-column="27" />
-          <folding>
-            <marker date="1468691154574" expanded="true" signature="167:283" ph="INSERT INTO sub_kriteria... " />
-            <marker date="1468691154574" expanded="true" signature="608:664" ph="DELETE FROM " />
-            <marker date="1468691154574" expanded="true" signature="1409:1435" ph="SELECT * FRO... sub_kriteria" />
-            <marker date="1468691154574" expanded="true" signature="3140:3317" ph="SELECT kd_va... variabel_guna_masuk" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/halaman/kriteria_keluar.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="11" column="73" selection-start-line="11" selection-start-column="73" selection-end-line="11" selection-end-column="73" />
-          <folding>
-            <marker date="1468692029562" expanded="true" signature="167:255" ph="INSERT INTO kriteria_masuk... " />
-            <marker date="1468692029562" expanded="true" signature="572:625" ph="DELETE FROM " />
-            <marker date="1468692029562" expanded="true" signature="2323:2352" ph="SELECT * FRO... kriteria_keluar" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/halaman/variabel_guna_keluar.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="55" column="46" selection-start-line="0" selection-start-column="0" selection-end-line="86" selection-end-column="6" />
-          <folding>
-            <marker date="1468691995242" expanded="true" signature="167:288" ph="INSERT INTO sub_kriteria... " />
-            <marker date="1468691995242" expanded="true" signature="615:673" ph="DELETE FROM " />
-            <marker date="1468691995242" expanded="true" signature="1421:1450" ph="SELECT * FRO... kriteria_keluar" />
-            <marker date="1468691995242" expanded="true" signature="3159:3351" ph="SELECT kd_va... variabel_guna_keluar" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/halaman/sub_var_guna_keluar.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="59" column="46" selection-start-line="59" selection-start-column="46" selection-end-line="59" selection-end-column="46" />
-          <folding>
-            <marker date="1468692912778" expanded="true" signature="167:318" ph="INSERT INTO sub_var_guna_keluar... " />
-            <marker date="1468692912778" expanded="true" signature="643:704" ph="DELETE FROM " />
-            <marker date="1468692912778" expanded="true" signature="1458:1492" ph="SELECT * FRO... variabel_guna_keluar" />
-            <marker date="1468692912778" expanded="true" signature="2201:2234" ph="SELECT * FRO... variabel_guna_masuk" />
-            <marker date="1468692912778" expanded="true" signature="4019:4328" ph="SELECT kd_su... sub_var_guna_keluar" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/halaman/sub_kriteria.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="11" column="59" selection-start-line="0" selection-start-column="0" selection-end-line="86" selection-end-column="6" />
-          <folding>
-            <marker date="1468692055778" expanded="true" signature="167:270" ph="INSERT INTO kriteria_masuk... " />
-            <marker date="1468692055778" expanded="true" signature="581:628" ph="DELETE FROM " />
-            <marker date="1468692055778" expanded="true" signature="1354:1382" ph="SELECT * FRO... kriteria_masuk" />
-            <marker date="1468692055778" expanded="true" signature="3073:3235" ph="SELECT nama_... sub_kriteria" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/halaman/komponen_sub_var_guna.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="29">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding>
-            <marker date="1468693520094" expanded="true" signature="167:247" ph="INSERT INTO komponen_sub_var... " />
-            <marker date="1468693520094" expanded="true" signature="167:295" ph="INSERT INTO sub_kriteria... " />
-            <marker date="1468693520094" expanded="true" signature="624:685" ph="DELETE FROM " />
-            <marker date="1468693520094" expanded="true" signature="1453:1486" ph="SELECT * FRO... sub_var_guna_keluar" />
-            <marker date="1468693520094" expanded="true" signature="3206:3419" ph="SELECT kd_ko... komponen_sub_var_guna" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/halaman/kriteria_masuk.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="7" column="37" selection-start-line="0" selection-start-column="0" selection-end-line="73" selection-end-column="6" />
-          <folding>
-            <marker date="1468690491530" expanded="true" signature="167:253" ph="INSERT INTO kriteria_masuk... " />
-            <marker date="1468690491530" expanded="true" signature="568:613" ph="DELETE FROM " />
-            <marker date="1468690491530" expanded="true" signature="2332:2360" ph="SELECT * FRO... kriteria_masuk" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="47" column="21" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/halaman/tim_rkaas.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding>
-            <marker date="1468694670966" expanded="true" signature="167:239" ph="INSERT INTO tim_rkaas... " />
-            <marker date="1468694670966" expanded="true" signature="167:264" ph="INSERT INTO tim_rkaas... " />
-            <marker date="1468694670966" expanded="true" signature="167:280" ph="INSERT INTO tim_rkaas... " />
-            <marker date="1468694670966" expanded="true" signature="585:626" ph="DELETE FROM " />
-            <marker date="1468694670966" expanded="true" signature="1072:1243" ph="..." />
-            <marker date="1468694670966" expanded="true" signature="1288:1447" ph="..." />
-            <marker date="1468694670966" expanded="true" signature="1492:1667" ph="..." />
-            <marker date="1468694670966" expanded="true" signature="1712:2623" ph="..." />
-            <marker date="1468694670966" expanded="true" signature="1832:1876" ph="SELECT * FRO... tim_rkaas" />
-            <marker date="1468694670966" expanded="true" signature="2900:3755" ph="..." />
-            <marker date="1468694670966" expanded="true" signature="2939:3755" ph="..." />
-            <marker date="1468694670966" expanded="true" signature="3057:3755" ph="..." />
-            <marker date="1468694670966" expanded="true" signature="3111:3755" ph="..." />
-            <marker date="1468694670966" expanded="true" signature="3139:3397" ph="..." />
-            <marker date="1468694670966" expanded="true" signature="3164:3368" ph="..." />
-            <marker date="1468694670966" expanded="true" signature="3425:3755" ph="..." />
-            <marker date="1468694670966" expanded="true" signature="3482:3505" ph="SELECT * FRO... tim_rkaas" />
-            <marker date="1468694670966" expanded="true" signature="3657:3755" ph="..." />
-            <marker date="1468694670966" expanded="true" signature="3953:4108" ph="..." />
-            <marker date="1468694670966" expanded="true" signature="4013:4108" ph="..." />
-            <marker date="1468694670966" expanded="true" signature="4637:4783" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -433,17 +472,129 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="232">
           <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
-          <folding>
-            <marker date="1468688130719" expanded="true" signature="109:213" ph="SELECT * FRO... tim_rkaas" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/.gitignore" />
+    <entry file="file://$PROJECT_DIR$/halaman/sdsd.php" />
+    <entry file="file://$PROJECT_DIR$/halaman/kriteria_masuk.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="55" column="81" selection-start-line="55" selection-start-column="81" selection-end-line="55" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/halaman/sub_kriteria.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="82" column="71" selection-start-line="82" selection-start-column="71" selection-end-line="82" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/halaman/variabel_guna_masuk.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="82" column="71" selection-start-line="82" selection-start-column="71" selection-end-line="82" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/halaman/realisasi.php" />
+    <entry file="file://$PROJECT_DIR$/halaman/rekap_a.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="50" column="24" selection-start-line="50" selection-start-column="24" selection-end-line="50" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/halaman/home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/halaman/komponen_sub_var_guna.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="29">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/halaman/rekap_b.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="78" column="27" selection-start-line="78" selection-start-column="27" selection-end-line="78" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/halaman/kriteria_keluar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/halaman/variabel_guna_keluar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/halaman/sub_var_guna_keluar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="14" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/halaman/sub_komponen_sub_var_guna.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/halaman/tim_rkaas.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="63" column="26" selection-start-line="0" selection-start-column="0" selection-end-line="94" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1972">
+          <caret line="68" column="42" selection-start-line="68" selection-start-column="42" selection-end-line="68" selection-end-column="42" />
+          <caret line="68" column="73" selection-start-line="68" selection-start-column="73" selection-end-line="68" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/QUERY.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="19" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/halaman/pengambilan_dana.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="68" column="41" selection-start-line="68" selection-start-column="41" selection-end-line="68" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/halaman/rekap_c.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="102" column="45" selection-start-line="102" selection-start-column="45" selection-end-line="102" selection-end-column="45" />
         </state>
       </provider>
     </entry>

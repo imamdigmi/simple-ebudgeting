@@ -25,7 +25,7 @@ if (isset($_GET['action']) AND $_GET['action'] == 'delete') {
                     </div>
                     <div class="form-group">
                         <label for="jumlah">Jumlah</label>
-                        <input type="number" name="jumlah" class="form-control">
+                        <input type="number" name="jumlah" class="form-control" value="0">
                     </div>
                     <input type="hidden" name="form" value="true">
                     <button type="submit" class="btn btn-info btn-block">Simpan</button>
@@ -53,7 +53,7 @@ if (isset($_GET['action']) AND $_GET['action'] == 'delete') {
                             <tr>
                                 <td><?=$no++?></td>
                                 <td><?=$data['nama_kriteria_keluar']?></td>
-                                <td><?=$data['jumlah']?></td>
+                                <td>Rp.<?=number_format($data['jumlah'])?>,-</td>
                                 <td class="hidden-print">
                                     <div class="btn-group">
                                         <a href="?halaman=kriteria_keluar&action=update&id=<?=$data['kd_kriteria_keluar']?>" class="btn btn-warning btn-xs">Edit</a>

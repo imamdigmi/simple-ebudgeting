@@ -2,7 +2,7 @@
 
 <?php
 if (isset($_POST['form']) AND $_POST['form'] == 'true') {
-    if ($koneksi->query("INSERT INTO tim_rkaas VALUES(NULL, '$_POST[username]', '$_POST[nama]', 'md5($_POST[password])', '$_POST[status]')")) {
+    if ($koneksi->query("INSERT INTO tim_rkaas VALUES(NULL, '$_POST[username]', '$_POST[nama]', '".md5($_POST['password'])."', '$_POST[status]')")) {
         echo "<script>alert('Berhasil diinput!'); window.location='?halaman=tim_rkaas';</script>";
     } else {
         echo "<script>alert('Gagal diinput!'); window.location='?halaman=tim_rkaas';</script>";
@@ -60,8 +60,9 @@ if (isset($_GET['action']) AND $_GET['action'] == 'delete') {
                     <thead>
                     <tr>
                         <th>No</th>
-                        <th>Nama Kriteria</th>
-                        <th>Jumlah</th>
+                        <th>Status</th>
+                        <th>Nama</th>
+                        <th>Username</th>
                         <th class="hidden-print"></th>
                     </tr>
                     </thead>
@@ -72,8 +73,8 @@ if (isset($_GET['action']) AND $_GET['action'] == 'delete') {
                             <tr>
                                 <td><?=$no++?></td>
                                 <td><?=$data['status']?></td>
-                                <td><?=$data['username']?></td>
                                 <td><?=$data['nama']?></td>
+                                <td><?=$data['username']?></td>
                                 <td class="hidden-print">
                                     <div class="btn-group">
                                         <a href="?halaman=tim_rkaas&action=update&id=<?=$data['id_tim_RKAAS']?>" class="btn btn-warning btn-xs">Edit</a>

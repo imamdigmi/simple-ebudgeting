@@ -3,8 +3,8 @@
 <?php
 if (isset($_POST['form']) AND $_POST['form'] == 'true') {
     $status = false;
-    $query_1 = $koneksi->query("SELECT jumlah FROM kriteria_keluar WHERE kd_kriteria_keluar=$_POST[kd_kriteria_keluar]");
-    $query_2 = $koneksi->query("SELECT SUM(jumlah) AS jml FROM variabel_guna_keluar WHERE kd_kriteria_keluar=$_POST[kd_kriteria_keluar]");
+    $query_1 = $koneksi->query("SELECT jumlah FROM komponen_sub_var_guna WHERE kd_komp_sub_var_guna=$_POST[kd_komp_sub_var_guna]");
+    $query_2 = $koneksi->query("SELECT SUM(jumlah) AS jml FROM sub_komponen_sub_var_guna WHERE kd_komp_sub_var_guna=$_POST[kd_komp_sub_var_guna]");
     $row_1 = $query_1->fetch_assoc();
     $row_2 = $query_2->fetch_assoc();
     $jum = $_POST['jumlah'] + $row_2['jml'];
@@ -14,18 +14,18 @@ if (isset($_POST['form']) AND $_POST['form'] == 'true') {
         $status = ($jum > $row_1['jumlah']) ? false : true;
     }
     if ($status) {
-        if ($koneksi->query("INSERT INTO variabel_guna_keluar VALUES(NULL, $_POST[kd_kriteria_keluar], '$_POST[nama_var_guna_keluar]', $_POST[jumlah])")) {
-            echo "<script>alert('Berhasil diinput!'); window.location='?halaman=variabel_guna_keluar';</script>";
+        if ($koneksi->query("INSERT INTO sub_komponen_sub_var_guna VALUES(NULL, $_POST[kd_komp_sub_var_guna], '$_POST[nama_sub_komp_sub_var_guna]', $_POST[jumlah])")) {
+            echo "<script>alert('Berhasil diinput!'); window.location='?halaman=sub_komponen_sub_var_guna';</script>";
         } else {
-            echo "<script>alert('Gagal diinput!'); window.location='?halaman=variabel_guna_keluar';</script>";
+            echo "<script>alert('Gagal diinput!'); window.location='?halaman=sub_komponen_sub_var_guna';</script>";
         }
     } else {
-        echo "<script>alert('Jumlah terlalu besar!'); window.location='?halaman=variabel_guna_keluar';</script>";
+        echo "<script>alert('Jumlah terlalu besar!'); window.location='?halaman=sub_komponen_sub_var_guna';</script>";
     }
 }
 if (isset($_GET['action']) AND $_GET['action'] == 'delete') {
-    $koneksi->query("DELETE FROM variabel_guna_keluar WHERE kd_var_guna_keluar=$_GET[id]");
-    echo "<script>alert('Berhasil dihapus!'); window.location='?halaman=variabel_guna_keluar';</script>";
+    $koneksi->query("DELETE FROM sub_komponen_sub_var_guna WHERE kd_sub_komp_sub_var_guna=$_GET[id]");
+    echo "<script>alert('Berhasil dihapus!'); window.location='?halaman=sub_komponen_sub_var_guna';</script>";
 }
 ?>
 <div class="row">
@@ -35,19 +35,19 @@ if (isset($_GET['action']) AND $_GET['action'] == 'delete') {
             <div class="panel-body">
                 <form action="<?=$_SERVER['REQUEST_URI']?>" method="POST">
                     <div class="form-group">
-                        <label for="kd_kriteria_keluar">Kriteria</label>
-                        <select name="kd_kriteria_keluar" class="form-control">
+                        <label for="kd_komp_sub_var_guna">Komponen Sub Var Guna</label>
+                        <select name="kd_komp_sub_var_guna" class="form-control">
                             <option value="" selected="on">---</option>
-                            <?php if ($query = $koneksi->query("SELECT * FROM kriteria_keluar")): ?>
+                            <?php if ($query = $koneksi->query("SELECT * FROM komponen_sub_var_guna")): ?>
                                 <?php while ($data = $query->fetch_array()): ?>
-                                    <option value="<?=$data['kd_kriteria_keluar']?>"><?=$data['nama_kriteria_keluar']?></option>
+                                    <option value="<?=$data['kd_komp_sub_var_guna']?>"><?=$data['nama_komp_sub_var_guna']?></option>
                                 <?php endwhile ?>
                             <?php endif ?>
                         </select>
                     </div>
                     <div class="form-group">
-                        <label for="nama_var_guna_keluar">Nama Var Guna Keluar</label>
-                        <input type="text" name="nama_var_guna_keluar" class="form-control">
+                        <label for="nama_sub_komp_sub_var_guna">Nama Sub Komponen</label>
+                        <input type="text" name="nama_sub_komp_sub_var_guna" class="form-control">
                     </div>
                     <div class="form-group">
                         <label for="jumlah">Jumlah</label>
@@ -67,25 +67,25 @@ if (isset($_GET['action']) AND $_GET['action'] == 'delete') {
                     <thead>
                     <tr>
                         <th>No</th>
-                        <th>Kriteria</th>
-                        <th>Guna Kriteria</th>
+                        <th>Sub Var Guna Keluar</th>
+                        <th>Komponen</th>
                         <th>Jumlah</th>
                         <th class="hidden-print"></th>
                     </tr>
                     </thead>
                     <tbody>
-                    <?php if($query = $koneksi->query("SELECT kd_var_guna_keluar, nama_kriteria_keluar, nama_var_guna_keluar, v.jumlah AS jumlah_v FROM variabel_guna_keluar v LEFT JOIN kriteria_keluar k ON v.kd_kriteria_keluar=k.kd_kriteria_keluar")): ?>
+                    <?php if($query = $koneksi->query("SELECT *, sk.jumlah AS jumlah_k FROM sub_komponen_sub_var_guna sk LEFT JOIN komponen_sub_var_guna ks ON sk.kd_komp_sub_var_guna=ks.kd_komp_sub_var_guna")): ?>
                         <?php $no = 1; ?>
                         <?php while($data = $query->fetch_array()): ?>
                             <tr>
                                 <td><?=$no++?></td>
-                                <td><?=$data['nama_kriteria_keluar']?></td>
-                                <td><?=$data['nama_var_guna_keluar']?></td>
-                                <td>Rp.<?=number_format($data['jumlah_v'])?>,-</td>
+                                <td><?=$data['nama_komp_sub_var_guna']?></td>
+                                <td><?=$data['nama_sub_komp_sub_var_guna']?></td>
+                                <td>Rp.<?=number_format($data['jumlah_k'])?>,-</td>
                                 <td class="hidden-print">
                                     <div class="btn-group">
-                                        <a href="?halaman=variabel_guna_keluar&action=update&id=<?=$data['kd_var_guna_keluar']?>" class="btn btn-warning btn-xs">Edit</a>
-                                        <a href="?halaman=variabel_guna_keluar&action=delete&id=<?=$data['kd_var_guna_keluar']?>" class="btn btn-danger btn-xs">Hapus</a>
+                                        <a href="?halaman=sub_komponen_sub_var_guna&action=update&id=<?=$data['kd_sub_komp_sub_var_guna']?>" class="btn btn-warning btn-xs">Edit</a>
+                                        <a href="?halaman=sub_komponen_sub_var_guna&action=delete&id=<?=$data['kd_sub_komp_sub_var_guna']?>" class="btn btn-danger btn-xs">Hapus</a>
                                     </div>
                                 </td>
                             </tr>
